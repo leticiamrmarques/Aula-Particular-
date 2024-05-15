@@ -1,0 +1,279 @@
+@media screen and (max-width: 322px) {
+  .navbar {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 8%;
+    margin-left: 0;
+    background: #3f4042;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-2 {
+    display: block;
+    margin-top: 12%;
+  }
+
+  .navbar h3 {
+    display: block;
+    margin-top: 10%;
+  }
+
+  .branco-2 p,
+  .branco-2 a {
+    display: block;
+    margin-top: 10%;
+  }
+
+  .header {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .headline-logo {
+    display: block;
+    font-size: 13px;
+  }
+
+  .gambiarra {
+    background-position: top;
+  }
+
+  .serviço {
+    top: -30px;
+  }
+
+  .card {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .botao-2 {
+    display: block;
+    margin-top: 4%;
+  }
+
+  .sticky {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .navbar {
+    display: inline-block;
+    width: 100%;
+    height: 230px;
+    margin-bottom: 8%;
+    margin-left: 0;
+    background: #3f4042;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-2 {
+    display: block;
+    margin-top: 12%;
+  }
+
+  .navbar h3 {
+    display: block;
+    margin-top: 10%;
+  }
+
+  .branco-2 p,
+  .branco-2 a {
+    display: block;
+    margin-top: 10%;
+  }
+
+  .header {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .headline-logo {
+    display: block;
+    font-size: 13px;
+  }
+
+  .gambiarra {
+    background-position: top;
+  }
+
+  .serviço {
+    top: -30px;
+  }
+
+  .card {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .botao-2 {
+    display: block;
+    margin-top: 4%;
+  }
+
+  .sticky {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .navbar {
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 8%;
+    margin-left: 0;
+    background: #3f4042;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-2 {
+    display: block;
+    margin-top: 10%;
+  }
+
+  .navbar h3 {
+    display: block;
+    margin-top: 10%;
+  }
+
+  .branco-2 p,
+  .branco-2 a {
+    display: block;
+    margin-top: 10%;
+  }
+
+  .header {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .headline-logo {
+    display: block;
+    font-size: 13px;
+  }
+
+  .gambiarra {
+    background-position: top;
+  }
+
+  .serviço {
+    top: -30px;
+  }
+
+  .card {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .card-text {
+    margin: 0;
+  }
+
+  .botao-2 {
+    display: block;
+    margin-top: 4%;
+  }
+
+  .sticky {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: inline-block;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 8%;
+    margin-left: 0;
+    background: #3f4042;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-2 {
+    display: block;
+  }
+
+  .navbar h3 {
+    display: block;
+  }
+
+  .branco-2 p,
+  .branco-2 a {
+    display: block;
+  }
+
+  .header {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .headline-logo {
+    display: block;
+  }
+
+  .gambiarra {
+    background-position: top;
+  }
+
+  .serviço {
+    top: -30px;
+  }
+
+  .card {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .botao-2 {
+    display: block;
+    margin-top: 4%;
+  }
+
+  .sticky {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+    margin-left: 0;
+  }
+}

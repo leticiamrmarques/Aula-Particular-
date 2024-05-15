@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&family=Whisper&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Whisper&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(./Imagem/Matemática\ 3.jpg);
+  /*background-size: cover;
+  background-repeat: repeat;*/
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: row wrap;
+  width: 80%;
+  height: 100px;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  background: #fed652;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  text-align: center;
+}
+.logo h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #353638;
+  font-size: 30px;
+}
+
+/*Aqui começa o responsive para mobile*/
+.logo-2 {
+  display: none;
+  text-align: center;
+  margin-top: 5%;
+}
+.logo-2 img {
+  border-radius: 35px;
+  box-shadow: whitesmoke 1.5px 1.5px 6px;
+}
+.navbar h3 {
+  display: none;
+  text-align: center;
+  margin-top: 6%;
+  color: whitesmoke;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  text-align: center;
+}
+
+.branco-2 {
+  text-align: center;
+}
+.branco-2 p {
+  display: none;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 590;
+  margin-top: 8%;
+}
+.branco-2 a {
+  display: none;
+  color: blue;
+}
+/*Aqui termina o responsive para mobile*/
+
+.header {
+  display: flex;
+  flex-wrap: row wrap;
+  width: 80%;
+  margin-left: 10%;
+}
+.headline {
+  flex: 75%;
+  color: whitesmoke;
+  background: #353638;
+}
+.headline h2 {
+  font-size: 25px;
+  color: #fed652;
+  margin: 2%;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  text-align: center;
+}
+.headline p {
+  margin: 2.5%;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/*Aqui começa o responsive para mobile*/
+.headline-logo {
+  display: none;
+  height: 100px;
+  margin-top: 0;
+  align-content: center;
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #353638;
+  font-size: 15px;
+  background: #fed652;
+}
+/*Aqui termina o responsive para mobile*/
+
+.lista {
+  font-size: 20px;
+}
+.lista li {
+  margin-bottom: 4%;
+}
+.gambiarra {
+  background-image: url(./Imagem/Matemática\ 3.jpg);
+  background-position: center;
+  height: 70px;
+}
+
+.headline-2 {
+  display: inline-block;
+  width: 100%;
+}
+.serviço {
+  width: 70%;
+  padding: 5px;
+  margin-left: 15%;
+  position: relative;
+  top: -35px;
+  border-radius: 20px;
+  background: #fed652;
+}
+.serviço h2 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #353638;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+  margin-bottom: 8%;
+  border-radius: 20px;
+  background: #fed652;
+}
+
+.card-text {
+  color: #353638;
+  margin: 3%;
+  padding: 2%;
+}
+
+/*Aqui começa o responsive para mobile*/
+.botao-2 {
+  display: none;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 12%;
+}
+.botao-2 img {
+  position: relative;
+  bottom: -6px;
+  margin-right: 5px;
+}
+.botao-2 a {
+  text-decoration: none;
+  color: #353638;
+  font-weight: 600;
+  background: #fed652;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: #fed652 2px 2px 12px;
+}
+/*Aqui termina o responsive para mobile*/
+
+.sticky {
+  flex: 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background: #fed652;
+  border-radius: 40px;
+  height: 488px;
+  box-shadow: #353638 2px 2px 10px;
+  position: sticky;
+  top: 1.5%;
+}
+.img {
+  margin-top: 15%;
+  text-align: center;
+}
+.img img {
+  border-radius: 35px;
+  box-shadow: #353638 1.5px 1.5px 8px;
+}
+.sticky h3 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12%;
+}
+.branco {
+  margin: 5%;
+  text-align: center;
+}
+.botao {
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 18%;
+}
+.botao a {
+  text-decoration: none;
+  color: whitesmoke;
+  background: #353638;
+  border-radius: 15px;
+  padding: 15px;
+}
+.botao a:hover {
+  background: #353638;
+  box-shadow: black 2px 2px 10px;
+}
+
+.footer {
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 8%;
+  height: 150px;
+  text-align: center;
+  background: #353638;
+}
+.footer h2 {
+  color: white;
+  font-size: 20px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  align-content: center;
+}
+.footer p {
+  color: whitesmoke;
+  margin-top: 4%;
+}
